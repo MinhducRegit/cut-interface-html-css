@@ -1,0 +1,109 @@
+#header { 
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+}
+.hide {
+
+}
+
+.presently {
+
+}
+#container { 
+  width: 1312px;
+  margin: 0 auto;
+}
+
+#container .box-left {
+  height: 100px;
+  float: left;
+  line-height: 100px;
+} 
+
+#container .box-left .logo {
+    width: 284px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#container .box-left .logo span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#container .box-left .logo  img {
+    width: 60px;
+    height: auto;
+    display: block;
+    line-height: 0 auto;
+}
+
+#container .box-left .search { 
+  width: 374px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  position: relative;
+}
+
+#container .box-left .search input {
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+  text-indent: 20px;
+  border: 1px  ;
+}
+
+#container .box-left .search .icon-search {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 6px;
+  right: 14px;
+  color: #A7A7A7;
+}
+
+#container .box-right {
+  float: right;
+  height: 100px;
+  line-height: 100px;
+}
+
+#container .box-right ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#container .box-right ul li {
+  display: inline-block;
+}
+
+
+#container .box-right ul li a,button {
+    text-decoration: none;
+    display: block;
+    margin-right: 30px;
+}
+
+#container .box-right ul li button {
+  width: 51px;
+  height: 30px;
+  background: #770303;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+}
+
+#container .box-right ul li .info {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#container .box-right ul li .info img {
+  width: 30px;
+}

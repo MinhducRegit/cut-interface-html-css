@@ -1,0 +1,138 @@
+#content {
+  margin-top: 30px;
+}
+
+#container .title-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container .title {
+  font-size: 50px;
+  font-weight: 700;
+  float: left;
+}
+
+#container .check { 
+  
+}
+
+#container .box-content .box-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 31px;
+  flex-wrap: wrap;
+
+}
+
+#container .box-content .box-list .category-box {
+  width: 417px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid #CCCCCC;
+}
+
+#container .box-content .box-list .category-box img {
+  width: 100%;
+}
+
+#container .box-content .box-list .category-box .information {
+  display: flex;
+  padding: 24px 0;
+  color: #211E3B;
+}
+#container .box-content .box-list .category-box .information  .name {
+  margin-right: 53px;
+  margin-left: 48px;
+  display: inherit;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+  margin-right: 2px;
+}
+#container .box-content .box-list .category-box .information .time {
+  display: inherit;
+}
+#container .box-content .box-list .category-box .content-category {
+  padding-left: 20px;
+}
+
+#container .box-content .box-list .category-box .content-category .title-category {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 7px;
+  color: #211E3B;
+}
+
+#container .box-content .box-list .category-box .content-category .depiction {
+  margin-bottom: 29px;
+}
+
+#container .box-content .box-list .category-box .read-more {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#container .box-content .box-list .category-box .read-more  button {
+  padding: 10px;
+  padding-right: 58px;
+  color: $color;
+  border: 1px #E4E4E4 solid;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#container .box-content .box-list .category-box .read-more  .icon-next {
+  position: absolute;
+  top: 11px;
+  left: 90px;
+}
+
+#container .box-content .box-list .category-box .read-more  .icon-next svg.w-6.h-6 {
+  color: $color;
+}
+
+#content #container .page-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 95px;
+}
+
+#content #container .page-bar li{
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 50%;
+}
+
+#content #container .page-bar li:hover {
+  background: #FFE4E4;
+  color: $color;
+}
+
+li.select {
+  background: #FFE4E4;
+  color: $color;
+}
+
+#content #container .page-bar li:first-child {
+  background: $color;
+}
+
+#content #container .page-bar li:last-child {
+  background: #E5E5E5;
+}
+
+
+#content #container .page-bar li:first-child a, li:last-child a {
+  color: #fff;
+}
+
+#content #container .page-bar li a {
+  text-decoration: none ;
+  font-weight: 700;
+}
